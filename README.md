@@ -41,5 +41,8 @@ Once you know how to commit changes, shoot me an email al434041@dal.ca and I'll 
 ## Team Workflow
 Visit the projects tab on the main page to begin organizing work flow. See the template one for inspiration on how to make your own. Ideally, we would pay enough attention to these project workflows so that nobody wastes time working on something already done. It would also avoid the need to twiddle your thumbs when you've finished what you wanted to do.
 
+## Using the 'Issues' Tab
+If ever you find yourself working at something and you're looking for any general help from someone on the team, try and open an 'Issue'. Someone will come across it eventually, and if they feel as though their know-how may deem fit for your problem, they can immediately address it on the spot.
+
 ## What to do if there is a problem
 When in doubt, send me an email al434041@dal.ca 
