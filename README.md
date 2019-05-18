@@ -8,7 +8,7 @@ GitHub is used by teams of people working together to share files and keep track
 
 If you wish, you may set up GitHub on your computer to automatically stay up to date with the files kept here. This is not necessary if you are not uploading/making changes frequently. If this is your case, using GitHub from your browser will do just fine.
 
-Before proceeding with installing Git below, please make a GitHub account and contact me first so I can add you to our repository. al434041@dal.ca is a good place to reach me.
+Before proceeding with installing Git below, please make a GitHub account and contact me first so I can add you to our repository. loris@alexamellal.com is a good place to reach me.
 
 ### MINI How-to set up Git on your computer
 #### Windows:
@@ -36,7 +36,7 @@ Before proceeding with installing Git below, please make a GitHub account and co
 #### All distributions:
 If you'd like to start contributing new files/changes to existing files, feel free to shoot me an email on how to do so (or look it up yourself but beware git can be unforgiving in deleting stuff if you're not sure what you're doing).
 
-Once you know how to commit changes, shoot me an email al434041@dal.ca and I'll add you as a contributor. **You must be added as a contributor before you can commit changes/add files**
+Once you know how to commit changes, shoot me an email loris@alexamellal.com and I'll add you as a contributor. **You must be added as a contributor before you can commit changes/add files**
 
 ## Team Workflow
 Visit the projects tab on the main page to begin organizing work flow. See the template one for inspiration on how to make your own. Ideally, we would pay enough attention to these project workflows so that nobody wastes time working on something already done. It would also avoid the need to twiddle your thumbs when you've finished what you wanted to do.
@@ -45,4 +45,4 @@ Visit the projects tab on the main page to begin organizing work flow. See the t
 If ever you find yourself working at something and you're looking for any general help from someone on the team, try and open an 'Issue'. Someone will come across it eventually, and if they feel as though their know-how may deem fit for your problem, they can immediately address it on the spot.
 
 ## What to do if there is a problem
-When in doubt, send me an email al434041@dal.ca 
+When in doubt, send me an email loris@alexamellal.com
