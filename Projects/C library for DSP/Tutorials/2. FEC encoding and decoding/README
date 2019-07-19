@@ -1,0 +1,34 @@
+/////////////////////////////
+//       Description       //
+////////////////////////////
+
+This example is copy-pasted from the previous one (1.), except it implements real FEC.
+
+//////////////////////
+//       Flow       //
+//////////////////////
+
+The program begins by specifying which FEC encoding scheme to be used. In this case, the Hamming(7,4) algorithm is selected. The specified scheme is stored in fec_encoding_scheme.
+
+Then, an arbitrary message length msg_len is designated for the message to be encoded. 
+
+Next, unlike in the previous example, the encoded message length will be different than that of the original message. The length of the message resulting from the encoding depends on which encoding scheme was chosen and the length of the original message. 
+
+The fec_get_enc_msg_length() function provides the length in bytes that the encoded message will occupy. This value is stored in msg_encoded_len.
+
+Afterwards, the same 3 char arrays are created as placeholders for the original, encoded and decoded messages.
+
+Then, an FEC object is created and stored in fec_obj. It is created using the fec_create() function, and requires the desired fec_encoding_scheme to be specified as the first argument. The second argument is essentially ignored by the function, so it can be NULL for now.
+
+Next, the msg array is encoded using the fec_encode() function. The resulting encoded bytes are stored in the msg_encoded placeholder. 
+
+As in the last example, msg_encoded is corrupted again by the flipping of a bit. This should represent a transmission error.
+
+The corrupted msg_encoded is then decoded into the msg_decoded array, using the fec_decode() function. It is important to specify the length of the decoded message rather than that of the encoded message (see note in source code).
+
+Finally, the number of bit errors between the original message and the decoded message are measured. The results are printed on the screen in the exact same format as the previous example.
+
+Note that the number of erronous bits is 0. This is because the Hamming(7,4) algorithm can tolerate up to 1 erronous bit for every 4 bits of the original message. 
+
+extra info: the (7,4) designation after 'Hamming' represents the number of encoded bits including redundencies / the number of bits desired to be encoded.
+That is, for every 4 bits encoded using the Hamming algorithm, 7 bits are spat out. 
