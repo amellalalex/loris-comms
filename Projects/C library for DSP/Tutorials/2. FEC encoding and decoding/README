@@ -30,5 +30,10 @@ Finally, the number of bit errors between the original message and the decoded m
 
 Note that the number of erronous bits is 0. This is because the Hamming(7,4) algorithm can tolerate up to 1 erronous bit for every 4 bits of the original message. 
 
-extra info: the (7,4) designation after 'Hamming' represents the number of encoded bits including redundencies / the number of bits desired to be encoded.
-That is, for every 4 bits encoded using the Hamming algorithm, 7 bits are spat out. 
+BONUS: The (7,4) designation after 'Hamming' represents the number of encoded bits including redundencies / the number of bits desired to be encoded. That is, for every 4 bits encoded using the Hamming algorithm, 7 bits are spat out. 
+
+///////////////////////////
+//       Compiling       //
+///////////////////////////
+
+gcc -Wall -o fec main.c -lc -lm -lliquid
