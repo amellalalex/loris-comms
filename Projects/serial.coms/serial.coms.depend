@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1563542738 source:c:\users\burni\onedrive\documents\serialcoms\serial.coms\rs232.c
+	"rs232.h"
+
+1563542739 c:\users\burni\onedrive\documents\serialcoms\serial.coms\rs232.h
+	<stdio.h>
+	<string.h>
+	<termios.h>
+	<sys/ioctl.h>
+	<unistd.h>
+	<fcntl.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<limits.h>
+	<sys/file.h>
+	<errno.h>
+	<windows.h>
+
+1563549609 source:c:\users\burni\onedrive\documents\serialcoms\serial.coms\main.c
+	<stdio.h>
+	<stdlib.h>
+	"rs232.h"
+	<Windows.h>
+	<unistd.h>
+
