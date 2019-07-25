@@ -8,6 +8,8 @@
 #include <unistd.h>
 #endif
 
+#define buffersize 4096
+
 int main()
 {
     printf("Serial Communication in C\n");
@@ -15,7 +17,7 @@ int main()
         cport_nr=5,        /* /dev/ttyS0 (COM1 on windows) */
         bdrate=9600;       /* 9600 baud */
 
-    unsigned char buf[4096];
+    unsigned char buf[buffersize];
 
     char mode[]= {'8','N','1', 0};
 
@@ -36,7 +38,7 @@ int main()
             return 0;
         }
 
-        n = RS232_PollComport(cport_nr, buf, 4095);
+        n = RS232_PollComport(cport_nr, buf, buffersize);
 
         if(n > 0)
         {
