@@ -1,0 +1,12 @@
+/////////////////////////////
+//       Description       //
+/////////////////////////////
+
+This project folder is designated to exploring the liquid-dsp C library for fast and efficient DSP. It includes handmade tutorials for the functionality that will be relevant to the LORIS project, and will eventually contain functional examples of using the library to a fuller extent.
+
+
+////////////////////////////////////
+//       liquid-dsp library       //
+////////////////////////////////////
+
+For source code and more information about the liquid-dsp library, check out https://github.com/jgaeddert/liquid-dsp
